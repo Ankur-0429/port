@@ -30,7 +30,10 @@ export default function Intro() {
         <TypeWriter /> Developer
       </motion.h1>
 
-      <motion.p className="my-3 max-w-xs leading-normal opacity-80">
+      <motion.p
+        className="my-3 max-w-xs leading-normal opacity-80"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 0.8, y: 0 }}>
         I build engaging and accessible web experiences.{" "}
       </motion.p>
 
