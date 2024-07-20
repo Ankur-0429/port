@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { HiDownload } from "react-icons/hi";
-import { useSectionInView } from "@/hooks/useSectionInView";
+import useSectionInView from "@/hooks/useSectionInView";
 import { useActiveSectionContext } from "@/hooks/useActiveSection";
 import TypeWriter from "@/components/typewritter";
 

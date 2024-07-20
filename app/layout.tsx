@@ -4,8 +4,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import ThemeContextProvider from "@/hooks/useTheme";
 import ActiveSectionContextProvider from "@/hooks/useActiveSection";
-import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/themeSwitch";
+import MovableBlurGradient from "@/components/movableBlurGradient";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ThemeContextProvider>
+        <MovableBlurGradient />
         <body
           className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}>
           <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]"></div>
