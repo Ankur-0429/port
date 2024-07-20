@@ -9,7 +9,7 @@ import { useActiveSectionContext } from "@/hooks/useActiveSection";
 import TypeWriter from "@/components/typewritter";
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.5);
+  const { ref } = useSectionInView("About", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
