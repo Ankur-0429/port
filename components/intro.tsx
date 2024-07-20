@@ -4,19 +4,16 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { HiDownload } from "react-icons/hi";
-import useSectionInView from "@/hooks/useSectionInView";
 import { useActiveSectionContext } from "@/hooks/useActiveSection";
 import TypeWriter from "@/components/typewritter";
 
 export default function Intro() {
-  const { ref } = useSectionInView("About", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
-      ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] sm:mb-0 scroll-mt-[100rem]">
+      className="mb-16 max-w-[50rem]">
       <motion.h1
         className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl"
         initial={{ opacity: 0, y: 100 }}
@@ -31,7 +28,7 @@ export default function Intro() {
       </motion.h1>
 
       <motion.p
-        className="my-3 max-w-xs leading-normal opacity-80"
+        className="my-3 max-w-xs leading-normal"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 0.8, y: 0 }}>
         I build engaging and accessible web experiences.{" "}
@@ -56,7 +53,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10 focus:bg-black/10 hover:bg-black/10 active:bg-black/20 dark:focus:bg-white/20 dark:hover:bg-white/20 dark:active:bg-white/30"
-          href="/Resume.pdf"
+          href="/resume"
           download>
           Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
