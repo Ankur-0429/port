@@ -28,7 +28,7 @@ export default function Intro() {
       </motion.h1>
 
       <motion.p
-        className="my-3 max-w-xs leading-normal"
+        className="my-3 max-w-xs leading-normal text-gray-700 dark:text-white/70"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 0.8, y: 0 }}>
         I build engaging and accessible web experiences.{" "}

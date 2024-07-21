@@ -10,7 +10,7 @@ export default function Projects() {
 
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
-      <div className="md:flex lg:flex-row md: gap-4">
+      <div className="lg:flex lg:flex-row lg:gap-4">
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
             <Project {...project} />
