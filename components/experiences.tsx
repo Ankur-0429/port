@@ -1,3 +1,4 @@
+
 "use client";
 
 import React from "react";
@@ -10,9 +11,11 @@ export default function Experiences() {
 
   return (
     <section ref={ref} id="experience" className="scroll-mt-28 mb-28">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="flex flex-wrap justify-center gap-4">
         {experiencesData.map((experience, index) => (
-          <Experience key={index} {...experience} />
+          <React.Fragment key={index}>
+            <Experience {...experience} />
+          </React.Fragment>
         ))}
       </div>
     </section>

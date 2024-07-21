@@ -34,7 +34,7 @@ export const experiencesData = [
     ariaLabelDate: "April to June 2024",
     ariaLabelTitle:
       "Software Development Capstone at Nutanix (opens in a new tab)",
-    tags: ["React", "PostgreSQL", "Typescript", "Javascript"],
+    tags: ["React", "PostgreSQL", "Typescript", "Javascript", "HTML", "CSS"],
   },
   {
     title: "Research Assistant · University of California",
@@ -58,7 +58,7 @@ export const experiencesData = [
     title: "SWE Intern · Lockheed Martin",
     link: "https://litinghu.github.io/",
     description:
-      "Collaborated with engineers and product managers during daily scrum meetings, story pointing, and code reviews. Conducted system testing using SonarQube to identify exposed API keys, poor coding practices, and security vulnerabilities. Implemented an automated email reporting system to alert the team of severe issues. Streamlined CI/CD pipeline to build, test, and deploy five repositories using Docker and Gitlab, reducing deployment time by 30%",
+      "Collaborated with engineers and product managers during daily scrum meetings, story pointing, and code reviews. Conducted system testing using SonarQube to identify exposed API keys, poor coding practices, and security vulnerabilities. Implemented an automated email reporting system to alert the team of severe issues. Streamlined CI/CD pipeline to build, test, and deploy five repositories using Docker and Gitlab, reducing deployment time by 30%.",
     date: "JUN 2021 - DEC 2022",
     ariaLabelDate: "June 2021 to December 2022",
     ariaLabelTitle: "Software Development Engineering Intern at Lockheed Martin",
