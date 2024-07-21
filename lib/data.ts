@@ -26,28 +26,50 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Development Capstone · Nutanix",
+    link: "https://www.nutanix.com",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Engineered an advanced data visualization system for Nutanix, harnessing over two years of extensive test data. Organized thousands of JSON files into a PostgreSQL database, automated deployment using Docker, and created backup and restore processes. Designed a test sharing functionality, allowing users to easily disseminate test results through direct links.",
+    date: "APR - JUN 2024",
+    ariaLabelDate: "April to June 2024",
+    ariaLabelTitle:
+      "Software Development Capstone at Nutanix (opens in a new tab)",
+    tags: ["React", "PostgreSQL", "Typescript", "Javascript"],
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Research Assistant · University of California",
+    link: "https://litinghu.github.io/",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Developed a web socket server using Spring Boot and Pub/Sub architecture, enabling users to join chat rooms, resulting in an average latency of 200ms. Implemented a logistic regression-based ranking algorithm to prioritize questions answered incorrectly by users. Maintained the codebase with Jest, React testing library, and test driven development (TDD).",
+    date: "SEP - DEC 2023",
+    ariaLabelDate: "September to December 2023",
+    ariaLabelTitle:
+      "Research Assistant at the University of California (opens in a new tab)",
+    tags: [
+      "React Native",
+      "Firebase",
+      "Springboot",
+      "Javascript",
+      "Typescript",
+      "Microservice",
+    ],
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "SWE Intern · Lockheed Martin",
+    link: "https://litinghu.github.io/",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Collaborated with engineers and product managers during daily scrum meetings, story pointing, and code reviews. Conducted system testing using SonarQube to identify exposed API keys, poor coding practices, and security vulnerabilities. Implemented an automated email reporting system to alert the team of severe issues. Streamlined CI/CD pipeline to build, test, and deploy five repositories using Docker and Gitlab, reducing deployment time by 30%",
+    date: "JUN 2021 - DEC 2022",
+    ariaLabelDate: "June 2021 to December 2022",
+    ariaLabelTitle: "Software Development Engineering Intern at Lockheed Martin",
+    tags: [
+      "Angular",
+      "Springboot",
+      "Kubernetes",
+      "Docker",
+      "Helm",
+      "CI/CD",
+    ],
   },
 ] as const;
 
@@ -61,11 +83,10 @@ export const projectsData = [
   },
   {
     title: "RecycleMe",
-    description:
-      "",
+    description: "",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: RecyleMeImg,
-  }
+  },
 ] as const;
 
 export const skillsData = [
