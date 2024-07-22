@@ -10,7 +10,7 @@ export default function Projects() {
 
   return (
     <section ref={ref} id="projects" className="mb-28">
-      <div className="-mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12">
+      <div className="mb-4 py-5 backdrop-blur">
         <h2 className="text-sm font-bold uppercase tracking-widest">Projects</h2>
       </div>
       <div className="flex flex-wrap justify-center gap-4">

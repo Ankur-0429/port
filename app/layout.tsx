@@ -7,6 +7,7 @@ import ActiveSectionContextProvider from "@/hooks/useActiveSection";
 import ThemeSwitch from "@/components/themeSwitch";
 import MovableBlurGradient from "@/components/movableBlurGradient";
 import { Toaster } from "react-hot-toast";
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,7 +33,7 @@ export default function RootLayout({
           <ActiveSectionContextProvider>
             <Header />
             {children}
-            {/* <Footer /> */}
+            <Footer />
             <Toaster position="top-right" />
             <ThemeSwitch />
           </ActiveSectionContextProvider>

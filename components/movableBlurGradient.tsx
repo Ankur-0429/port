@@ -18,6 +18,6 @@ export default function MovableBlurGradient() {
   }, []);
 
   return (
-    <div className="pointer-events-none fixed inset-0 z-30 transition duration-300" style={{backgroundImage: `radial-gradient(600px at ${cursorPos.x}px ${cursorPos.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`}}></div>
+    <div className="hidden lg:block pointer-events-none fixed inset-0 z-30 transition duration-300" style={{backgroundImage: `radial-gradient(600px at ${cursorPos.x}px ${cursorPos.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`}}></div>
   );
 }
