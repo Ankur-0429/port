@@ -13,6 +13,9 @@ export default function Home() {
       </div>
       <Experiences />
       <Projects />
+      <div className="-mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12">
+        <h2 className="text-sm font-bold uppercase tracking-widest">Contact</h2>
+      </div>
       <Contact />
     </main>
   );
