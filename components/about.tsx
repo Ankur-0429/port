@@ -5,11 +5,9 @@ import { motion } from "framer-motion";
 import useSectionInView from "@/hooks/useSectionInView";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
 
   return (
     <motion.section
-      ref={ref}
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24 lg:w-1/2"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}

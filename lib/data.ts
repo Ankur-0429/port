@@ -1,15 +1,9 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import RecyleMeImg from "@/public/RecycleMeAndroid.png";
 import WaypointImg from "@/public/WayPointIOS.png";
+import RemediaImg from "@/public/Remedia.png";
+import SlugSwapImg from "@/public/SlugSwap.png";
 
 export const links = [
-  {
-    name: "About",
-    hash: "#about",
-  },
   {
     name: "Experience",
     hash: "#experience",
@@ -61,32 +55,48 @@ export const experiencesData = [
       "Collaborated with engineers and product managers during daily scrum meetings, story pointing, and code reviews. Conducted system testing using SonarQube to identify exposed API keys, poor coding practices, and security vulnerabilities. Implemented an automated email reporting system to alert the team of severe issues. Streamlined CI/CD pipeline to build, test, and deploy five repositories using Docker and Gitlab, reducing deployment time by 30%.",
     date: "JUN 2021 - DEC 2022",
     ariaLabelDate: "June 2021 to December 2022",
-    ariaLabelTitle: "Software Development Engineering Intern at Lockheed Martin",
-    tags: [
-      "Angular",
-      "Springboot",
-      "Kubernetes",
-      "Docker",
-      "Helm",
-      "CI/CD",
-    ],
+    ariaLabelTitle:
+      "Software Development Engineering Intern at Lockheed Martin",
+    tags: ["Angular", "Springboot", "Kubernetes", "Docker", "Helm", "CI/CD"],
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Waypoint",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: WaypointImg,
-  },
-  {
     title: "RecycleMe",
-    description: "",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    description:
+      "Programmed a mobile application in Python and React Native that determines the recyclability of an item based on a picture taken by a client. Developed an image-based ML model that segments and categorizes items by image with a 63% accuracy using the TACO dataset. Created a CI/CD pipeline to automatically push new features to our backend system with Google cloud run.",
+    link: "https://github.com/Solutions-Challenge/Green-day-frontend",
+    ariaLabelTitle: "RecycleMe Project (opens in new tab)",
+    tags: [
+      "React Native",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "Python",
+      "Flask",
+      "Firebase",
+    ],
     imageUrl: RecyleMeImg,
   },
+  {
+    title: "ReMedia",
+    description:
+      "Designed a mobile application that informs clients on when to use a certain drug based on the image taken, winning second place out of 46 teams for health-based software. Created a web scraper in python to extract relevant data from over 6,000 drugs and provide a detailed description of the use case of the drug and its side effects. Implemented Google’s text detection API to extract the name of a drug from an image of a prescription bottle",
+    link: "https://devpost.com/software/cruzhacks-2022-9suva2",
+    ariaLabelTitle: "Remedia Project (opens in new tab)",
+    tags: ["Typescript", "React Native", "Javascript", "Beautiful Soup"],
+    imageUrl: RemediaImg,
+  },
+  {
+    title: "SlugSwap",
+    description:
+      "Achieved first place out of 87 teams for UX/UI design, designing a React Native food-delivery app that allows college students to donate surplus food. Implemented static analysis with ESLint, state management with Jotai, authentication with Firebase, and consistent UI with Nativebase. Conducted user testing with four clients over two days, resulting in the identification of three usability issues each unit tested",
+    link: "https://devpost.com/software/slug-swap-g1uz0s",
+    ariaLabelTitle: "SlugSwap Project (opens in new tab)",
+    tags: ["Typescript", "React Native", "Firebase"],
+    imageUrl: SlugSwapImg
+  }
 ] as const;
 
 export const skillsData = [
