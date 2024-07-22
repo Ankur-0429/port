@@ -31,7 +31,7 @@ export default function Experience(experience: ExperienceProps) {
                 </div>
               </div>
             </h3>
-            <p className="mt-2 text-sm leading-normal text-gray-700 dark:text-white/70">
+            <p className="mt-2 text-sm leading-relaxed text-gray-700 dark:text-white/70">
               {experience.description}
             </p>
             <ul className="flex flex-wrap mt-6 gap-2">

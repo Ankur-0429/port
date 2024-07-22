@@ -29,7 +29,7 @@ export default function Project({
             </span>
             <LuArrowUpRight className="group-hover:translate-x-1 group-hover:-translate-y-1 transition" />
           </div>
-          <p className="mt-2 text-sm leading-normal text-gray-700 dark:text-white/70">
+          <p className="mt-2 text-sm leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
           <ul className="flex flex-wrap mt-4 gap-2">
