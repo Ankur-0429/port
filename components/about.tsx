@@ -14,7 +14,7 @@ export default function About() {
       transition={{ delay: 0.175 }}
       aria-label="About Me"
       id="about">
-      <p className="mb-4 text-gray-700 dark:text-white/70">
+      <p className="mb-4 text-gray-700 dark:text-white/70 leading-relaxed">
         Back in 2017, I decided to build a pathfinding visualizer using HTML and
         CSS and realized my path for web development. Fast-forward to today, and
         I had the privilage to work for a{" "}

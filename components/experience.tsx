@@ -34,7 +34,7 @@ export default function Experience(experience: ExperienceProps) {
             <p className="mt-2 text-sm leading-normal text-gray-700 dark:text-white/70">
               {experience.description}
             </p>
-            <ul className="flex flex-wrap mt-4 gap-2">
+            <ul className="flex flex-wrap mt-6 gap-2">
               {experience.tags.map((tag, index) => (
                 <li
                   className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"

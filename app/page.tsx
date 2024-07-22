@@ -3,6 +3,7 @@ import Contact from "@/components/contact";
 import Experiences from "@/components/experiences";
 import Intro from "@/components/intro";
 import Projects from "@/components/projects";
+import Skills from "@/components/skills";
 
 export default function Home() {
   return (
@@ -12,6 +13,12 @@ export default function Home() {
         <About />
       </div>
       <Experiences />
+      <div className="mb-4 py-5 w-full backdrop-blur">
+        <h2 className="text-sm font-bold uppercase tracking-widest">Technologies</h2>
+      </div>
+      <div className="mb-28">
+      <Skills />
+      </div>
       <Projects />
       <div className="mb-4 py-5 w-full backdrop-blur">
         <h2 className="text-sm font-bold uppercase tracking-widest">Contact</h2>
