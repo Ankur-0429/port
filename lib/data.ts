@@ -1,5 +1,4 @@
 import RecyleMeImg from "@/public/RecycleMeAndroid.png";
-import WaypointImg from "@/public/WayPointIOS.png";
 import RemediaImg from "@/public/Remedia.png";
 import SlugSwapImg from "@/public/SlugSwap.png";
 

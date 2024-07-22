@@ -10,7 +10,7 @@ export default function Experiences() {
   const { ref } = useSectionInView("Experience", 0.5);
 
   return (
-    <section ref={ref} id="experience" className="mb-28">
+    <section ref={ref} id="experience" aria-label="Experience" className="mb-28">
       <div className="mb-4 py-5 backdrop-blur">
         <h2 className="text-sm font-bold uppercase tracking-widest">Experience</h2>
       </div>
