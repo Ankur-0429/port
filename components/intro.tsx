@@ -54,7 +54,7 @@ export default function Intro() {
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10 focus:bg-black/10 hover:bg-black/10 active:bg-black/20 dark:focus:bg-white/20 dark:hover:bg-white/20 dark:active:bg-white/30"
           href="/resume"
-          download>
+          download="Resume.pdf">
           Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
