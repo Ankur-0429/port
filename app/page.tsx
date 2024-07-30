@@ -7,7 +7,7 @@ import Skills from "@/components/skills";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center px-4 lg:px-10"> 
+    <main className="flex flex-col items-center px-4 lg:px-10 max-w-screen-2xl mx-auto"> 
       <div className="lg:flex lg:flex-row lg:justify-between">
         <Intro />
         <About />

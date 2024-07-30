@@ -13,7 +13,7 @@ export default function Projects() {
       <div className="mb-4 py-5 backdrop-blur">
         <h2 className="text-sm font-bold uppercase tracking-widest">Projects</h2>
       </div>
-      <div className="flex flex-wrap justify-center gap-4">
+      <div className="flex flex-wrap justify-between gap-4">
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
             <Project {...project} />

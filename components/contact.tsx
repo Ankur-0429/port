@@ -15,7 +15,7 @@ export default function Contact() {
       id="contact"
       aria-label="Contact"
       ref={ref}
-      className="mb-20 sm:mb-28 w-[min(100%,42rem)] text-center"
+      className="mb-20 sm:mb-28 w-full text-center"
       initial={{
         opacity: 0,
       }}
