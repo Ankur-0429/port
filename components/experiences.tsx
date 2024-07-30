@@ -14,7 +14,7 @@ export default function Experiences() {
       <div className="mb-4 py-5 backdrop-blur">
         <h2 className="text-sm font-bold uppercase tracking-widest">Experience</h2>
       </div>
-      <div className="flex flex-wrap justify-between gap-4">
+      <div className="flex flex-wrap xl-custom:justify-between justify-center gap-4">
         {experiencesData.map((experience, index) => (
           <React.Fragment key={index}>
             <Experience {...experience} />

@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xl-custom': '1455px',
+      },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
       },
